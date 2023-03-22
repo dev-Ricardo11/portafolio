@@ -1,4 +1,4 @@
-        .logo {
+                .logo {
             width: 60px;
             height: 60px;
             border-radius: 50%;
@@ -379,7 +379,7 @@
         }
         
         h2 {
-            display: flex;
+            display: block;
             align-items: center;
             color: rgba(0, 0, 255, 0.596);
             font-size: 48px;
@@ -394,7 +394,7 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            min-height: 50vh;
+            height: 55vh;
             background-color: #e2dcdcdd;
         }
         
@@ -501,10 +501,7 @@
             .nombre,
             .sobremi,
             .fila,
-            .col {
-                margin-bottom: 10px;
-                display: block;
-            }
+            .col {}
         }
         
         @media screen and (max-width: 600px) {
@@ -523,9 +520,8 @@
             .skills .fila .col .barra-skill {
                 width: 100%;
             }
-            .row .port .card .h2 {
-                padding: 10px;
-                width: 100%;
-                position: static;
+            .portafolio .port .row .porta {
+                display: block;
+                width: 100px;
             }
         }
