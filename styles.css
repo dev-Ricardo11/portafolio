@@ -371,7 +371,7 @@
         }
         
         .port {
-            display: flex;
+            display: block;
             height: 100vh;
             justify-content: center;
             background-color: #f1f0f0dd;
