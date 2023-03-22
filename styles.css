@@ -7,6 +7,18 @@
 .navbar-nav a {
     color: rgba(0, 0, 255, 0.596);
 }
+.nav-responsive {
+            background-color: #0707f3;
+            color: #e7dbdb;
+            padding: 5px 10px;
+            border-radius: 5px;
+            cursor: pointer;
+            display: none;
+        }
+        
+        .nav-responsive:hover {
+            opacity: 0.8;
+        }
 
 .contenedor-banner {
     display: flex;
