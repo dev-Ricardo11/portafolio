@@ -402,7 +402,7 @@
             position: relative;
             display: flex;
             transform-style: preserve-3d;
-            transform: rotate(-20deg) skew(25deg);
+            transform: rotate(-5deg) skew(25deg);
         }
         
         .contacto ul li {
