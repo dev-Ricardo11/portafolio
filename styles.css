@@ -491,17 +491,8 @@
         }
         /** responsive**/
         
-        @media all and (max-width: 400px) and (min-width: 1200px) {
-            .header-content {}
-        }
-        
-        @media all and (max-width: 400px) and (min-width: 1200px) {
-            .inicio,
-            .perfil,
-            .nombre,
-            .sobremi,
-            .fila,
-            .col {
+        @media screen and (max-width: 400px) {
+            .contenedor-banner {
                 flex-direction: column;
             }
         }
