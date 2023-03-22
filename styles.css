@@ -1,4 +1,4 @@
-                .logo {
+            .logo {
             width: 60px;
             height: 60px;
             border-radius: 50%;
@@ -41,7 +41,6 @@
             border-radius: 50%;
             transition: 0.5s;
             object-fit: cover;
-          flex-direction: column;
         }
         
         img:hover {
@@ -167,7 +166,7 @@
         .skill {
             background-color: #e9e6e6dd;
             color: rgba(0, 0, 255, 0.596);
-            padding: 30px 20px;
+            padding: 40px 20px;
         }
         
         .skill .contenido-seccion {
@@ -373,7 +372,7 @@
         
         .port {
             display: block;
-            height: 100vh;
+            min-height: 100vh;
             justify-content: center;
             background-color: #f1f0f0dd;
             align-items: center;
@@ -395,7 +394,7 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            height: 55vh;
+            height: 30vh;
             background-color: #e2dcdcdd;
         }
         
@@ -503,8 +502,8 @@
             .sobremi,
             .fila,
             .col {
-          flex-direction: column;
-          }
+                flex-direction: column;
+            }
         }
         
         @media screen and (max-width: 600px) {
